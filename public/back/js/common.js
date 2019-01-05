@@ -7,3 +7,10 @@ $(document).ajaxStop(function(){
         NProgress.done();
     })
 },500);
+
+//左侧二级菜单
+$(function(){
+    $('.lt_aside .nav .category').on('click',function(){
+        $(this).next().stop().slideToggle();
+    })
+})

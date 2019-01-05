@@ -85,4 +85,7 @@ ul {
     background: #1D1F21;
     border-left:3px solid #006699;
 }
+.lt_aside .nav .child {
+    display: none;
+}
 
