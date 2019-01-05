@@ -1,3 +1,14 @@
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .body_bg {
     background:#222D32;
 }
@@ -10,3 +21,68 @@
 .mt_150 {
     margin-top:150px;   
 }
+
+/* 侧边栏 */
+.lt_aside {
+    position: fixed;
+    top:0;
+    left:0;
+    width:180px;
+    height:100%;
+    background: #222D32;
+}
+.lt_aside .title {
+    height:50px;
+    width:100%;
+    background: #367FA9;
+}
+.lt_aside .title a {
+    display: block;
+    color:#fff;
+    height:50px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.lt_aside .user {
+    height:180px;
+    width:100%;
+    padding-top:30px;
+}
+.lt_aside .user img {
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    margin:0 auto;
+    display: block;
+}
+.lt_aside .user p {
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+}
+.lt_aside .nav {
+    height:120px;
+    width:100%;
+}
+.lt_aside .nav a {
+    display: block;
+    height:40px;
+    line-height: 40px;
+    color:#fff;
+    padding-left:40px;
+    border-left:3px solid transparent;
+}
+.lt_aside .nav a i {
+    margin-right:4px;
+}
+.lt_aside .nav .child a {
+    padding-left:60px;
+}
+.lt_aside .nav a.current {
+    background: #1D1F21;
+    border-left:3px solid #006699;
+}
+
