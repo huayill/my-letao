@@ -100,7 +100,6 @@ ul {
 /* 主体部分 */
 .lt_main {
     height:2000px;
-    background: pink;
     width:100%;
     padding-left:180px;
     padding-top:50px;
@@ -135,4 +134,10 @@ ul {
 }
 .red {
     color:#A94442;
+}
+.lt_content .echarts-left,
+.echarts-right{
+    height:400px;
+    width:48%;
+    background: skyblue;
 }
