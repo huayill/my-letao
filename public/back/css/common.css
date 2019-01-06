@@ -30,6 +30,11 @@ ul {
     width:180px;
     height:100%;
     background: #222D32;
+    z-index:9999;
+    transition: all 1s;
+}
+.lt_aside.hidemenu {
+    left:-180px;
 }
 .lt_aside .title {
     height:50px;
@@ -78,6 +83,9 @@ ul {
 .lt_aside .nav a i {
     margin-right:4px;
 }
+/* .lt_aside .nav .child {
+    display:block;
+} */
 .lt_aside .nav .child a {
     padding-left:60px;
 }
@@ -89,3 +97,42 @@ ul {
     display: none;
 }
 
+/* 主体部分 */
+.lt_main {
+    height:2000px;
+    background: pink;
+    width:100%;
+    padding-left:180px;
+    padding-top:50px;
+    transition: all 1s;
+}
+.lt_main.hidemenu {
+    padding-left:0;
+}
+.lt_main .topbar {
+    height:50px;
+    width:100%;
+    background: #5D9ED1;
+    position: fixed;
+    top:0;
+    left:0;
+    padding-left:180px;
+    transition: all 1s;
+}
+.topbar.hidemenu {
+    padding-left:0;
+}
+.lt_main .topbar a {
+    width:50px;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+.mt_20 {
+    margin-top:20px;
+}
+.red {
+    color:#A94442;
+}
