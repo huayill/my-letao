@@ -96,7 +96,7 @@ ul {
 .lt_aside .nav .child {
     display: none;
 }
-
+/* 首页模块 */
 /* 主体部分 */
 .lt_main {
     height:2000px;
@@ -140,4 +140,11 @@ ul {
     height:400px;
     width:48%;
     background: skyblue;
+}
+
+/* 用户模块 */
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
 }
